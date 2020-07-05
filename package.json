@@ -1,0 +1,49 @@
+{
+  "_from": "@dhkicl/common@1.0.32",
+  "_id": "@dhkicl/common@1.0.32",
+  "_inBundle": false,
+  "_integrity": "sha512-n70InOn6TPpCEiDyk10CP/gS/ucq1451jZY3K1dw1iGVo2tgiD581D6FqRtZDPijxSkLdTnyf780MfYJ0YAkOQ==",
+  "_location": "/@dhkicl/common",
+  "_phantomChildren": {
+    "google-protobuf": "3.12.2",
+    "nats": "1.4.9",
+    "nuid": "1.1.4"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@dhkicl/common@1.0.32",
+    "name": "@dhkicl/common",
+    "escapedName": "@dhkicl%2fcommon",
+    "scope": "@dhkicl",
+    "rawSpec": "1.0.32",
+    "saveSpec": null,
+    "fetchSpec": "1.0.32"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@dhkicl/common/-/common-1.0.32.tgz",
+  "_shasum": "ba6366c6a0d48b7bd28db2e84725b8811b7a14a4",
+  "_spec": "@dhkicl/common@1.0.32",
+  "_where": "C:\\Users\\3700X\\kicl-kuber\\servers\\class-lecture-sv",
+  "author": "",
+  "bundleDependencies": false,
+  "dependencies": {
+    "cookie-session": "^1.4.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "node-nats-streaming": "^0.2.6"
+  },
+  "deprecated": false,
+  "description": "kicl-modules-set",
+  "license": "ISC",
+  "main": "./src/index.js",
+  "name": "@dhkicl/common",
+  "scripts": {
+    "publish": "git add . && git commit -m \"Updates\" && npm version patch && npm publish"
+  },
+  "version": "1.0.32"
+}
