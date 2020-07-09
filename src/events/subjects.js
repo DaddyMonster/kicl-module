@@ -8,4 +8,5 @@ module.exports = {
   CLASS_CREATED: "class:created",
   CLASS_UPDATED: "class:updated",
   CLASS_DELETED: "class:deleted",
+  VID_LESSON_CREATED: "vid-lesson:created",
 };

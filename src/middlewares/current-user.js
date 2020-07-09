@@ -2,6 +2,7 @@ const jwt = require("jsonwebtoken");
 const NotAuthorizedError = require("../errors/not-authorized-error");
 const BadRequestError = require("../errors/bad-request-error");
 module.exports = currentUser = (req, res, next) => {
+  console.log(process.env.JWT_KEY)
   if (!req.session) {
     res.send({ message: "not logged in yet " });
   }
