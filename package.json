@@ -37,7 +37,6 @@
     "jsonwebtoken": "^8.5.1",
     "node-nats-streaming": "^0.2.6"
   },
-  "deprecated": false,
   "description": "kicl-modules-set",
   "license": "ISC",
   "main": "./src/index.js",
