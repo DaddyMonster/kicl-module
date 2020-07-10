@@ -44,5 +44,5 @@
   "scripts": {
     "pub": "git add . && git commit -m \"Updates\" && npm version patch && npm publish"
   },
-  "version": "1.0.38"
+  "version": "1.0.39"
 }
