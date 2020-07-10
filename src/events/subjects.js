@@ -9,4 +9,5 @@ module.exports = {
   CLASS_UPDATED: "class:updated",
   CLASS_DELETED: "class:deleted",
   VID_LESSON_CREATED: "vid-lesson:created",
+  VOC_LESSON_CREATED: "voc-lesson:created",
 };
