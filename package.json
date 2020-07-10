@@ -42,7 +42,7 @@
   "main": "./src/index.js",
   "name": "@dhkicl/common",
   "scripts": {
-    "publish": "git add . && git commit -m \"Updates\" && npm version patch && npm publish"
+    "pub": "git add . && git commit -m \"Updates\" && npm version patch && npm publish"
   },
   "version": "1.0.38"
 }
